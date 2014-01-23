@@ -1,7 +1,7 @@
 {
-  "default": { "DBSReader":  ["dev/phys03"],
+  "default": { "DBSReader":  ["dev/global", "dev/phys03"],
                "DBSWriter":  ["dev/global", "dev/phys03"],
-               "DBSMigrate": ["dev/global", "dev/phys03"]},
+               "DBSMigrate": ["dev/phys03"]},
   "dev": { "DBSReader":  ["prod/global", "dev/global", "int/global", "dev/phys03"],
            "DBSWriter" : ["prod/global", "dev/global", "int/global", "dev/phys03"],
            "DBSMigrate": ["prod/global", "dev/global", "int/global", "dev/phys03"]},
